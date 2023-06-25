@@ -1,0 +1,69 @@
+{
+  "packages":
+  [
+    {  
+      "name": "PMM-01XX-CPUs",
+      "maintainer": "PMM LLC",
+      "websiteURL": "PMM-USA.COM",
+      "email" : "info@pmm-usa.us",
+      "platforms":
+      [
+        { 
+          "name": "PMM-01XX-CPUs", 
+          "architecture": "samd",
+          "version": "0.1.0",
+          "category": "Contributed",
+          "url": "https://github.com/Israr-Engineering/PMM-01XX-CPUs/blob/main/custom_Board/PMM.zip?raw=true",
+          "archiveFileName": "PMM.zip",
+          "checksum": "SHA-256:761E993C35F085765C8E306C333D2008066311EA9E5E993621C2E8D7CAFF1CD6",
+          "size": "7751275",
+          "boards": [
+
+            {"name": "PMM0102"},
+            {"name": "PMM0103"},
+            {"name": "PMM0103L"},
+            {"name": "PMM0104-1"},
+            {"name": "PMM0104-2"},
+            {"name": "PMM0105L"},
+            {"name": "PMM0105-1"},
+            {"name": "PMM0105-2"},
+            {"name": "PMM0107"}
+            
+
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}

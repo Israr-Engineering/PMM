@@ -1,0 +1,385 @@
+# Copyright (c) 2014-2017 Arduino LLC.  All right reserved.
+#
+# This library is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+#
+# This library is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# See the GNU Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public
+# License along with this library; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+
+# PMM0102 (ESI NANO PIC1 BOUT PF.F)
+# --------------------------------------
+PMM0102.name=PMM0102 (ESI NANO PIC1 BOUT PF.F)
+PMM0102.vid.0=0x2341
+PMM0102.pid.0=0x804d
+PMM0102.vid.1=0x2341
+PMM0102.pid.1=0x004d
+PMM0102.vid.2=0x2341
+PMM0102.pid.2=0x824d
+PMM0102.vid.3=0x2341
+PMM0102.pid.3=0x024d
+PMM0102.upload_port.0.vid=0x2341
+PMM0102.upload_port.0.pid=0x804d
+PMM0102.upload_port.1.vid=0x2341
+PMM0102.upload_port.1.pid=0x004d
+PMM0102.upload_port.2.vid=0x2341
+PMM0102.upload_port.2.pid=0x824d
+PMM0102.upload_port.3.vid=0x2341
+PMM0102.upload_port.3.pid=0x024d
+PMM0102.upload_port.4.board=arduino_zero_native
+PMM0102.build.usb_product="PMM0102"
+PMM0102.upload.tool=bossac
+PMM0102.upload.tool.default=bossac
+PMM0102.upload.tool.network=arduino_ota
+PMM0102.upload.protocol=sam-ba
+PMM0102.upload.maximum_size=262144
+PMM0102.upload.maximum_data_size=32768
+PMM0102.upload.use_1200bps_touch=true
+PMM0102.upload.wait_for_upload_port=true
+PMM0102.upload.native_usb=true
+PMM0102.build.mcu=cortex-m0plus
+PMM0102.build.f_cpu=48000000L
+PMM0102.build.usb_product="pmm0102"
+PMM0102.build.usb_manufacturer="PMM LLC"
+PMM0102.build.board=pmm0102
+PMM0102.build.core=arduino
+PMM0102.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0102.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0102.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0102.build.variant=pmm0102
+PMM0102.build.variant_system_lib=
+PMM0102.build.vid=0x2341
+PMM0102.build.pid=0x804d
+PMM0102.bootloader.tool=openocd
+PMM0102.bootloader.tool.default=openocd
+
+# PMM0103 (ESI LITE NANO P1 C1 BOUT PF.F)
+# --------------------------------------
+PMM0103.name=PMM0103 (ESI LITE NANO P1 C1 BOUT PF.F)
+PMM0103.vid.0=0x2341
+PMM0103.pid.0=0x804d
+PMM0103.vid.1=0x2341
+PMM0103.pid.1=0x004d
+PMM0103.vid.2=0x2341
+PMM0103.pid.2=0x824d
+PMM0103.vid.3=0x2341
+PMM0103.pid.3=0x024d
+PMM0103.upload_port.0.vid=0x2341
+PMM0103.upload_port.0.pid=0x804d
+PMM0103.upload_port.1.vid=0x2341
+PMM0103.upload_port.1.pid=0x004d
+PMM0103.upload_port.2.vid=0x2341
+PMM0103.upload_port.2.pid=0x824d
+PMM0103.upload_port.3.vid=0x2341
+PMM0103.upload_port.3.pid=0x024d
+PMM0103.upload_port.4.board=arduino_zero_native
+PMM0103.build.usb_product="PMM0103"
+PMM0103.upload.tool=bossac
+PMM0102.upload.tool.default=bossac
+PMM0103.upload.tool.network=arduino_ota
+PMM0103.upload.protocol=sam-ba
+PMM0103.upload.maximum_size=262144
+PMM0103.upload.maximum_data_size=32768
+PMM0103.upload.use_1200bps_touch=true
+PMM0103.upload.wait_for_upload_port=true
+PMM0103.upload.native_usb=true
+PMM0103.build.mcu=cortex-m0plus
+PMM0103.build.f_cpu=48000000L
+PMM0103.build.usb_product="pmm0103"
+PMM0103.build.usb_manufacturer="PMM LLC"
+PMM0103.build.board=pmm0103
+PMM0103.build.core=arduino
+PMM0103.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0103.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0103.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0103.build.variant=pmm0103
+PMM0103.build.variant_system_lib=
+PMM0103.build.vid=0x2341
+PMM0103.build.pid=0x804d
+PMM0103.bootloader.tool=openocd
+PMM0103.bootloader.tool.default=openocd
+
+# PMM0104V1 (ESI ARDUINO PLC SMART IO)
+# --------------------------------------
+PMM0104V1.name=PMM0104V1 (ESI ARDUINO PLC SMART IO)
+PMM0104V1.vid.0=0x2341
+PMM0104V1.pid.0=0x804d
+PMM0104V1.vid.1=0x2341
+PMM0104V1.pid.1=0x004d
+PMM0104V1.vid.2=0x2341
+PMM0104V1.pid.2=0x824d
+PMM0104V1.vid.3=0x2341
+PMM0104V1.pid.3=0x024d
+PMM0104V1.upload_port.0.vid=0x2341
+PMM0104V1.upload_port.0.pid=0x804d
+PMM0104V1.upload_port.1.vid=0x2341
+PMM0104V1.upload_port.1.pid=0x004d
+PMM0104V1.upload_port.2.vid=0x2341
+PMM0104V1.upload_port.2.pid=0x824d
+PMM0104V1.upload_port.3.vid=0x2341
+PMM0104V1.upload_port.3.pid=0x024d
+PMM0104V1.upload_port.4.board=arduino_zero_native
+PMM0104V1.build.usb_product="PMM0104V1"
+PMM0104V1.upload.tool=bossac
+PMM0104V1.upload.tool.default=bossac
+PMM0104V1.upload.tool.network=arduino_ota
+PMM0104V1.upload.protocol=sam-ba
+PMM0104V1.upload.maximum_size=262144
+PMM0104V1.upload.maximum_data_size=32768
+PMM0104V1.upload.use_1200bps_touch=true
+PMM0104V1.upload.wait_for_upload_port=true
+PMM0104V1.upload.native_usb=true
+PMM0104V1.build.mcu=cortex-m0plus
+PMM0104V1.build.f_cpu=48000000L
+PMM0104V1.build.usb_product="pmm0104V1"
+PMM0104V1.build.usb_manufacturer="PMM LLC"
+PMM0104V1.build.board=pmm0104V1
+PMM0104V1.build.core=arduino
+PMM0104V1.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0104V1.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0104V1.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0104V1.build.variant=pmm0104V1
+PMM0104V1.build.variant_system_lib=
+PMM0104V1.build.vid=0x2341
+PMM0104V1.build.pid=0x804d
+PMM0104V1.bootloader.tool=openocd
+PMM0104V1.bootloader.tool.default=openocd
+
+# PMM0104V2 (ESI ARDUINO PLC SMART IO)
+# --------------------------------------
+PMM0104V2.name=PMM0104V2 (ESI ARDUINO PLC SMART IO)
+PMM0104V2.vid.0=0x2341
+PMM0104V2.pid.0=0x804d
+PMM0104V2.vid.1=0x2341
+PMM0104V2.pid.1=0x004d
+PMM0104V2.vid.2=0x2341
+PMM0104V2.pid.2=0x824d
+PMM0104V2.vid.3=0x2341
+PMM0104V2.pid.3=0x024d
+PMM0104V2.upload_port.0.vid=0x2341
+PMM0104V2.upload_port.0.pid=0x804d
+PMM0104V2.upload_port.1.vid=0x2341
+PMM0104V2.upload_port.1.pid=0x004d
+PMM0104V2.upload_port.2.vid=0x2341
+PMM0104V2.upload_port.2.pid=0x824d
+PMM0104V2.upload_port.3.vid=0x2341
+PMM0104V2.upload_port.3.pid=0x024d
+PMM0104V2.upload_port.4.board=arduino_zero_native
+PMM0104V2.build.usb_product="PMM0104V2"
+PMM0104V2.upload.tool=bossac
+PMM0104V2.upload.tool.default=bossac
+PMM0104V2.upload.tool.network=arduino_ota
+PMM0104V2.upload.protocol=sam-ba
+PMM0104V2.upload.maximum_size=262144
+PMM0104V2.upload.maximum_data_size=32768
+PMM0104V2.upload.use_1200bps_touch=true
+PMM0104V2.upload.wait_for_upload_port=true
+PMM0104V2.upload.native_usb=true
+PMM0104V2.build.mcu=cortex-m0plus
+PMM0104V2.build.f_cpu=48000000L
+PMM0104V2.build.usb_product="pmm0104V2"
+PMM0104V2.build.usb_manufacturer="PMM LLC"
+PMM0104V2.build.board=pmm0104V2
+PMM0104V2.build.core=arduino
+PMM0104V2.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0104V2.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0104V2.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0104V2.build.variant=PMM0104V2
+PMM0104V2.build.variant_system_lib=
+PMM0104V2.build.vid=0x2341
+PMM0104V2.build.pid=0x804d
+PMM0104V2.bootloader.tool=openocd
+PMM0104V2.bootloader.tool.default=openocd
+
+# PMM0105V1 (ESI ARDUINO PLC SMART IO) 
+# --------------------------------------
+PMM0105V1.name=PMM0105V1 (ESI ARDUINO PLC SMART IO)
+PMM0105V1.vid.0=0x2341
+PMM0105V1.pid.0=0x804d
+PMM0105V1.vid.1=0x2341
+PMM0105V1.pid.1=0x004d
+PMM0105V1.vid.2=0x2341
+PMM0105V1.pid.2=0x824d
+PMM0105V1.vid.3=0x2341
+PMM0105V1.pid.3=0x024d
+PMM0105V1.upload_port.0.vid=0x2341
+PMM0105V1.upload_port.0.pid=0x804d
+PMM0105V1.upload_port.1.vid=0x2341
+PMM0105V1.upload_port.1.pid=0x004d
+PMM0105V1.upload_port.2.vid=0x2341
+PMM0105V1.upload_port.2.pid=0x824d
+PMM0105V1.upload_port.3.vid=0x2341
+PMM0105V1.upload_port.3.pid=0x024d
+PMM0105V1.upload_port.4.board=arduino_zero_native
+PMM0105V1.build.usb_product="PMM0105V1"
+PMM0105V1.upload.tool=bossac
+PMM0105V1.upload.tool.default=bossac
+PMM0105V1.upload.tool.network=arduino_ota
+PMM0105V1.upload.protocol=sam-ba
+PMM0105V1.upload.maximum_size=262144
+PMM0105V1.upload.maximum_data_size=32768
+PMM0105V1.upload.use_1200bps_touch=true
+PMM0105V1.upload.wait_for_upload_port=true
+PMM0105V1.upload.native_usb=true
+PMM0105V1.build.mcu=cortex-m0plus
+PMM0105V1.build.f_cpu=48000000L
+PMM0105V1.build.usb_product="pmm0105V1"
+PMM0105V1.build.usb_manufacturer="PMM LLC"
+PMM0105V1.build.board=pmm0105V1
+PMM0105V1.build.core=arduino
+PMM0105V1.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0105V1.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0105V1.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0105V1.build.variant=PMM0105V1
+PMM0105V1.build.variant_system_lib=
+PMM0105V1.build.vid=0x2341
+PMM0105V1.build.pid=0x804d
+PMM0105V1.bootloader.tool=openocd
+PMM0105V1.bootloader.tool.default=openocd
+
+# PMM0105V2 (NANO PI HLK BOUT)
+# --------------------------------------
+PMM0105V2.name=PMM0105V2 (NANO PI HLK BOUT)
+PMM0105V2.vid.0=0x2341
+PMM0105V2.pid.0=0x804d
+PMM0105V2.vid.1=0x2341
+PMM0105V2.pid.1=0x004d
+PMM0105V2.vid.2=0x2341
+PMM0105V2.pid.2=0x824d
+PMM0105V2.pid.2=0x824d
+PMM0105V2.vid.3=0x2341
+PMM0105V2.pid.3=0x024d
+PMM0105V2.upload_port.0.vid=0x2341
+PMM0105V2.upload_port.0.pid=0x804d
+PMM0105V2.upload_port.1.vid=0x2341
+PMM0105V2.upload_port.1.pid=0x004d
+PMM0105V2.upload_port.2.vid=0x2341
+PMM0105V2.upload_port.2.pid=0x824d
+PMM0105V2.upload_port.3.vid=0x2341
+PMM0105V2.upload_port.3.pid=0x024d
+PMM0105V2.upload_port.4.board=arduino_zero_native
+PMM0105V2.build.usb_product="PMM0105V2"
+PMM0105V2.upload.tool=bossac
+PMM0105V2.upload.tool.default=bossac
+PMM0105V2.upload.tool.network=arduino_ota
+PMM0105V2.upload.protocol=sam-ba
+PMM0105V2.upload.maximum_size=262144
+PMM0105V2.upload.maximum_data_size=32768
+PMM0105V2.upload.use_1200bps_touch=true
+PMM0105V2.upload.wait_for_upload_port=true
+PMM0105V2.upload.native_usb=true
+PMM0105V2.build.mcu=cortex-m0plus
+PMM0105V2.build.f_cpu=48000000L
+PMM0105V2.build.usb_product="pmm0105V2"
+PMM0105V2.build.usb_manufacturer="PMM LLC"
+PMM0105V2.build.board=pmm0105V2
+PMM0105V2.build.core=arduino
+PMM0105V2.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0105V2.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0105V2.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0105V2.build.variant=PMM0105V2
+PMM0105V2.build.variant_system_lib=
+PMM0105V2.build.vid=0x2341
+PMM0105V2.build.pid=0x804d
+PMM0105V2.bootloader.tool=openocd
+PMM0105V2.bootloader.tool.default=openocd
+
+# PMM0105V3 (NANO PI HLK BOUT )
+# --------------------------------------
+PMM0105.name=PMM0105  (NANO PI HLK BOUT )
+PMM0105.vid.0=0x2341
+PMM0105.pid.0=0x804d
+PMM0105.vid.1=0x2341
+PMM0105.pid.1=0x004d
+PMM0105.vid.2=0x2341
+PMM0105.pid.2=0x824d
+PMM0105.vid.3=0x2341
+PMM0105.pid.3=0x024d
+PMM0105.upload_port.0.vid=0x2341
+PMM0105.upload_port.0.pid=0x804d
+PMM0105.upload_port.1.vid=0x2341
+PMM0105.upload_port.1.pid=0x004d
+PMM0105.upload_port.2.vid=0x2341
+PMM0105.upload_port.2.pid=0x824d
+PMM0105.upload_port.3.vid=0x2341
+PMM0105.upload_port.3.pid=0x024d
+PMM0105.upload_port.4.board=arduino_zero_native
+PMM0105.build.usb_product="PMM0105"
+PMM0105.upload.tool=bossac
+PMM0105.upload.tool.default=bossac
+PMM0105.upload.tool.network=arduino_ota
+PMM0105.upload.protocol=sam-ba
+PMM0105.upload.maximum_size=262144
+PMM0105.upload.maximum_data_size=32768
+PMM0105.upload.use_1200bps_touch=true
+PMM0105.upload.wait_for_upload_port=true
+PMM0105.upload.native_usb=true
+PMM0105.build.mcu=cortex-m0plus
+PMM0105.build.f_cpu=48000000L
+PMM0105.build.usb_product="pmm0105"
+PMM0105.build.usb_manufacturer="PMM LLC"
+PMM0105.build.board=pmm0105
+PMM0105.build.core=arduino
+PMM0105.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0105.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0105.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0105.build.variant=PMM0105
+PMM0105.build.variant_system_lib=
+PMM0105.build.vid=0x2341
+PMM0105.build.pid=0x804d
+PMM0105.bootloader.tool=openocd
+PMM0105.bootloader.tool.default=openocd
+ 
+# PMM0107 (ATOMIC BASIC BREAK OUT)
+# --------------------------------------
+PMM0107.name=PMM0107 (ATOMIC BASIC BREAK OUT)
+PMM0107.vid.0=0x2341
+PMM0107.pid.0=0x804d
+PMM0107.vid.1=0x2341
+PMM0107.pid.1=0x004d
+PMM0107.vid.2=0x2341
+PMM0107.pid.2=0x824d
+PMM0107.vid.3=0x2341
+PMM0107.pid.3=0x024d
+PMM0107.upload_port.0.vid=0x2341
+PMM0107.upload_port.0.pid=0x804d
+PMM0107.upload_port.1.vid=0x2341
+PMM0107.upload_port.1.pid=0x004d
+PMM0107.upload_port.2.vid=0x2341
+PMM0107.upload_port.2.pid=0x824d
+PMM0107.upload_port.3.vid=0x2341
+PMM0107.upload_port.3.pid=0x024d
+PMM0107.upload_port.4.board=arduino_zero_native
+PMM0107.build.usb_product="PMM0107"
+PMM0107.upload.tool=bossac
+PMM0107.upload.tool.default=bossac
+PMM0107.upload.tool.network=arduino_ota
+PMM0107.upload.protocol=sam-ba
+PMM0107.upload.maximum_size=262144
+PMM0107.upload.maximum_data_size=32768
+PMM0107.upload.use_1200bps_touch=true
+PMM0107.upload.wait_for_upload_port=true
+PMM0107.upload.native_usb=true
+PMM0107.build.mcu=cortex-m0plus
+PMM0107.build.f_cpu=48000000L
+PMM0107.build.usb_product="pmm0107"
+PMM0107.build.usb_manufacturer="PMM LLC"
+PMM0107.build.board=pmm0107
+PMM0107.build.core=arduino
+PMM0107.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0107.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0107.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0107.build.variant=PMM0107
+PMM0107.build.variant_system_lib=
+PMM0107.build.vid=0x2341
+PMM0107.build.pid=0x804d
+PMM0107.bootloader.tool=openocd
+PMM0107.bootloader.tool.default=openocd
