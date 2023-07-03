@@ -2,14 +2,14 @@
   "packages":
   [
     {  
-      "name": "PMM-01XX-CPUs",
+      "name": "PMM-PLC-CPUs",
       "maintainer": "PMM LLC",
       "websiteURL": "PMM-USA.COM",
       "email" : "info@pmm-usa.us",
       "platforms":
       [
         { 
-          "name": "PMM-01XX-CPUs", 
+          "name": "PMM-PLC-CPUs", 
           "architecture": "samd",
           "version": "0.1.1",
           "category": "Contributed",
