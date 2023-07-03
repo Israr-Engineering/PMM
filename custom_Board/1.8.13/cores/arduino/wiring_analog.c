@@ -129,8 +129,8 @@ int analogRead(pin_size_t pin)
 {
   uint32_t valueRead = 0;
 
-  if (pin < A0) {
-    pin += A0;
+  if (pin < AC) {
+    pin += AC;
   }
 
   pinPeripheral(pin, PIO_ANALOG);

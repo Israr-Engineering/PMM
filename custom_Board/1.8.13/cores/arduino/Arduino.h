@@ -63,7 +63,7 @@ extern "C"{
 #undef abs
 #endif // abs
 
-#define abs(x) ((x)>0?(x):-(x))
+//#define abs(x) ((x)>0?(x):-(x))
 
 // Allows publishing the Beta core under samd-beta / arduino organization
 #ifndef ARDUINO_ARCH_SAMD

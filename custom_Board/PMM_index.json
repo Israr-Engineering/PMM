@@ -11,24 +11,27 @@
         { 
           "name": "PMM-01XX-CPUs", 
           "architecture": "samd",
-          "version": "0.1.0",
+          "version": "0.1.1",
           "category": "Contributed",
-          "url": "https://github.com/Israr-Engineering/PMM-01XX-CPUs/blob/main/custom_Board/PMM.zip?raw=true",
+          "url": "https://github.com/Israr-Engineering/PMM/blob/main/custom_Board/PMM.zip?raw=true",
           "archiveFileName": "PMM.zip",
-          "checksum": "SHA-256:761E993C35F085765C8E306C333D2008066311EA9E5E993621C2E8D7CAFF1CD6",
-          "size": "7751275",
+          "checksum": "SHA-256:D127EF0530DADFE4582465D354DE25D84286B223472AFC3D49794562EE1144B2",
+          "size": "17026460",
           "boards": [
 
-            {"name": "PMM0102"},
-            {"name": "PMM0103"},
-            {"name": "PMM0103L"},
-            {"name": "PMM0104-1"},
-            {"name": "PMM0104-2"},
-            {"name": "PMM0105L"},
-            {"name": "PMM0105-1"},
-            {"name": "PMM0105-2"},
-            {"name": "PMM0107"}
-            
+            {"name": "PMM0620"},
+            {"name": "PMM0625"},
+            {"name": "PMM0626"},
+            {"name": "PMM0627"},
+            {"name": "PMM0628R"},
+            {"name": "PMM0628T"},
+            {"name": "PMM0630"},
+            {"name": "PMM0631"},
+            {"name": "PMM0632"},
+            {"name": "PMM0635"},
+            {"name": "PMM0636"},
+            {"name": "PMM0638"},
+            {"name": "PMM0639"}
 
           ],
           "toolsDependencies":
