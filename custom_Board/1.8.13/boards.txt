@@ -17,7 +17,7 @@
 
 # PMM0620 (ESI 12x Digital Inputs)
 # --------------------------------------
-PMM0620.name=PMM0620 (ESI 12x Digital Inputs)
+PMM0620.name=PMM0620 (ESI 12xDI )
 PMM0620.vid.0=0x2341
 PMM0620.pid.0=0x804d
 PMM0620.vid.1=0x2341
@@ -35,7 +35,6 @@ PMM0620.upload_port.2.pid=0x824d
 PMM0620.upload_port.3.vid=0x2341
 PMM0620.upload_port.3.pid=0x024d
 PMM0620.upload_port.4.board=PMM0620
-
 PMM0620.upload.tool=bossac
 PMM0620.upload.tool.default=bossac
 PMM0620.upload.tool.network=arduino_ota
@@ -65,7 +64,7 @@ PMM0620.bootloader.file=zero/samd21_sam_ba.bin
 
 # PMM0625 ( ESI SET 8x Digital Output)
 # --------------------------------------
-PMM0625.name=PMM0625 ( ESI SET 8x Digital Output)
+PMM0625.name=PMM0625 ( ESI SET 8xDO)
 PMM0625.vid.0=0x2341
 PMM0625.pid.0=0x804d
 PMM0625.vid.1=0x2341
@@ -111,7 +110,7 @@ PMM0625.bootloader.file=zero/samd21_sam_ba.bin
 
 # PMM0626 (ESI SER 8x Digital Output)
 # --------------------------------------
-PMM0626.name=PMM0626 (ESI SER 8x Digital Output)
+PMM0626.name=PMM0626 (ESI SER 8xDO)
 PMM0626.vid.0=0x2341
 PMM0626.pid.0=0x804d
 PMM0626.vid.1=0x2341
@@ -158,7 +157,7 @@ PMM0626.bootloader.file=zero/samd21_sam_ba.bin
 
 # PMM0627 ( ESI SEAC 8x Digital Output)
 # --------------------------------------
-PMM0627.name=PMM0627 ( ESI SEAC 8x Digital Output)
+PMM0627.name=PMM0627 ( ESI SEAC 8xDO)
 PMM0627.vid.0=0x2341
 PMM0627.pid.0=0x804d
 PMM0627.vid.1=0x2341
@@ -204,7 +203,7 @@ PMM0627.bootloader.file=zero/samd21_sam_ba.bin
 
 # PMM0628R (ESI 8x Inputs 4x Relay Outputs)
 # --------------------------------------
-PMM0628R.name=PMM0628R (ESI 8x Inputs 4x Relay Outputs)
+PMM0628R.name=PMM0628R (ESI 8xDI + 4xDO R)
 PMM0628R.vid.0=0x2341
 PMM0628R.pid.0=0x804d
 PMM0628R.vid.1=0x2341
@@ -251,7 +250,7 @@ PMM0628R.bootloader.file=zero/samd21_sam_ba.bin
 
 # PMM0628T ( ESI 8x Inputs 4x Transistor Outputs)
 # --------------------------------------
-PMM0628T.name=PMM0628T ( ESI 8x Inputs 4x Transistor Outputs)
+PMM0628T.name=PMM0628T ( ESI 8xDI + 4xDO TR)
 PMM0628T.vid.0=0x2341
 PMM0628T.pid.0=0x804d
 PMM0628T.vid.1=0x2341
@@ -298,7 +297,7 @@ PMM0628T.bootloader.file=zero/samd21_sam_ba.bin
 
 # PMM0630 (SE 8x Analog Inputs)
 # --------------------------------------
-PMM0630.name=PMM0630 (SE 8x Analog Inputs)
+PMM0630.name=PMM0630 (SE 8xAI)
 PMM0630.vid.0=0x2341
 PMM0630.pid.0=0x804d
 PMM0630.vid.1=0x2341
@@ -344,7 +343,7 @@ PMM0630.bootloader.file=zero/samd21_sam_ba.bin
 
 # PMM0631 (SE 4x Analog Input)
 # --------------------------------------
-PMM0631.name=PMM0631 (SE 4x Analog Input)
+PMM0631.name=PMM0631 (SE 4x AI)
 PMM0631.vid.0=0x2341
 PMM0631.pid.0=0x804d
 PMM0631.vid.1=0x2341
@@ -390,7 +389,7 @@ PMM0631.bootloader.file=zero/samd21_sam_ba.bin
 
 # PMM0632 (ESI 8x Analog Inputs)
 # --------------------------------------
-PMM0632.name=PMM0632 (ESI 8x Analog Inputs)
+PMM0632.name=PMM0632 (ESI 8xAI)
 PMM0632.vid.0=0x2341
 PMM0632.pid.0=0x804d
 PMM0632.vid.1=0x2341
@@ -437,7 +436,7 @@ PMM0632.bootloader.file=zero/samd21_sam_ba.bin
 
 # PMM0635 (ESI 8x Analog Inputs)
 # --------------------------------------
-PMM0635.name=PMM0635 (ESI 8x Analog Inputs)
+PMM0635.name=PMM0635 (ESI 8xAI)
 PMM0635.vid.0=0x2341
 PMM0635.pid.0=0x804d
 PMM0635.vid.1=0x2341
@@ -484,7 +483,7 @@ PMM0635.bootloader.file=zero/samd21_sam_ba.bin
 
 # PMM0636 (ESI 4x Analog Outputs)
 # --------------------------------------
-PMM0636.name=PMM0636 (ESI 4x Analog Outputs)
+PMM0636.name=PMM0636 (ESI 8xAO)
 PMM0636.vid.0=0x2341
 PMM0636.pid.0=0x804d
 PMM0636.vid.1=0x2341
@@ -530,7 +529,7 @@ PMM0636.bootloader.file=zero/samd21_sam_ba.bin
 
 # PMM0638 (ESI 8x Analog Input Output)
 # --------------------------------------
-PMM0638.name=PMM0638 (ESI 8x Analog Input Output)
+PMM0638.name=PMM0638 (ESI 4xAI + 4xAO)
 PMM0638.vid.0=0x2341
 PMM0638.pid.0=0x804d
 PMM0638.vid.1=0x2341
@@ -577,7 +576,7 @@ PMM0638.bootloader.file=zero/samd21_sam_ba.bin
 
 # PMM0639 (ESI 4xAnalog Input Output + Digital Input Output)
 # --------------------------------------
-PMM0639.name=PMM0639 (ESI 4xAnalog Input Output + Digital Input Output)
+PMM0639.name=PMM0639 (ESI 4xAI + 4xAO + 2xDI + 2xDO)
 PMM0639.vid.0=0x2341
 PMM0639.pid.0=0x804d
 PMM0639.vid.1=0x2341
@@ -620,3 +619,1103 @@ PMM0639.build.pid=0x804d
 PMM0639.bootloader.tool=openocd
 PMM0639.bootloader.tool.default=openocd
 PMM0639.bootloader.file=zero/samd21_sam_ba.bin
+
+# Extension Boards
+# PMM0620X (SI 16x Digital Inputs)
+# --------------------------------------
+PMM0620X.name=PMM0620X (SI 16xDI)
+PMM0620X.vid.0=0x2341
+PMM0620X.pid.0=0x804d
+PMM0620X.vid.1=0x2341
+PMM0620X.pid.1=0x004d
+PMM0620X.vid.2=0x2341
+PMM0620X.pid.2=0x824d
+PMM0620X.vid.3=0x2341
+PMM0620X.pid.3=0x024d
+PMM0620X.upload_port.0.vid=0x2341
+PMM0620X.upload_port.0.pid=0x804d
+PMM0620X.upload_port.1.vid=0x2341
+PMM0620X.upload_port.1.pid=0x004d
+PMM0620X.upload_port.2.vid=0x2341
+PMM0620X.upload_port.2.pid=0x824d
+PMM0620X.upload_port.3.vid=0x2341
+PMM0620X.upload_port.3.pid=0x024d
+PMM0620X.upload_port.4.board=arduino_zero_native
+PMM0620X.build.usb_product="PMM0620X"
+PMM0620X.upload.tool=bossac
+PMM0620X.upload.tool.default=bossac
+PMM0620X.upload.tool.network=arduino_ota
+PMM0620X.upload.protocol=sam-ba
+PMM0620X.upload.maximum_size=262144
+PMM0620X.upload.maximum_data_size=32768
+PMM0620X.upload.use_1200bps_touch=true
+PMM0620X.upload.wait_for_upload_port=true
+PMM0620X.upload.native_usb=true
+PMM0620X.build.mcu=cortex-m0plus
+PMM0620X.build.f_cpu=48000000L
+PMM0620X.build.usb_product="pmm0620X"
+PMM0620X.build.usb_manufacturer="PMM LLC"
+PMM0620X.build.board=pmm0620X
+PMM0620X.build.core=arduino
+PMM0620X.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0620X.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0620X.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0620X.build.variant=pmm062X
+PMM0620X.build.variant_system_lib=
+PMM0620X.build.vid=0x2341
+PMM0620X.build.pid=0x804d
+PMM0620X.bootloader.tool=openocd
+PMM0620X.bootloader.tool.default=openocd
+PMM0620X.bootloader.file=zero/samd21_sam_ba.bin
+
+
+# PMM0625X (SI 16x Digital Inputs T)
+# --------------------------------------
+PMM0625X.name=PMM0625X (SI 16xDO T)
+PMM0625X.vid.0=0x2341
+PMM0625X.pid.0=0x804d
+PMM0625X.vid.1=0x2341
+PMM0625X.pid.1=0x004d
+PMM0625X.vid.2=0x2341
+PMM0625X.pid.2=0x824d
+PMM0625X.vid.3=0x2341
+PMM0625X.pid.3=0x024d
+PMM0625X.upload_port.0.vid=0x2341
+PMM0625X.upload_port.0.pid=0x804d
+PMM0625X.upload_port.1.vid=0x2341
+PMM0625X.upload_port.1.pid=0x004d
+PMM0625X.upload_port.2.vid=0x2341
+PMM0625X.upload_port.2.pid=0x824d
+PMM0625X.upload_port.3.vid=0x2341
+PMM0625X.upload_port.3.pid=0x024d
+PMM0625X.upload_port.4.board=arduino_zero_native
+PMM0625X.build.usb_product="PMM0625X"
+PMM0625X.upload.tool=bossac
+PMM0625X.upload.tool.default=bossac
+PMM0625X.upload.tool.network=arduino_ota
+PMM0625X.upload.protocol=sam-ba
+PMM0625X.upload.maximum_size=262144
+PMM0625X.upload.maximum_data_size=32768
+PMM0625X.upload.use_1200bps_touch=true
+PMM0625X.upload.wait_for_upload_port=true
+PMM0625X.upload.native_usb=true
+PMM0625X.build.mcu=cortex-m0plus
+PMM0625X.build.f_cpu=48000000L
+PMM0625X.build.usb_product="pmm0625X"
+PMM0625X.build.usb_manufacturer="PMM LLC"
+PMM0625X.build.board=pmm0625X
+PMM0625X.build.core=arduino
+PMM0625X.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0625X.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0625X.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0625X.build.variant=pmm0625X
+PMM0625X.build.variant_system_lib=
+PMM0625X.build.vid=0x2341
+PMM0625X.build.pid=0x804d
+PMM0625X.bootloader.tool=openocd
+PMM0625X.bootloader.tool.default=openocd
+PMM0625X.bootloader.file=zero/samd21_sam_ba.bin
+
+
+# PMM0626X (SI 16x Digital Output R)
+# -------------------------------------
+PMM0626X.name=PMM0626X (SI 16xDO R)
+PMM0626X.vid.0=0x2341
+PMM0626X.pid.0=0x804d
+PMM0626X.vid.1=0x2341
+PMM0626X.pid.1=0x004d
+PMM0626X.vid.2=0x2341
+PMM0626X.pid.2=0x824d
+PMM0626X.vid.3=0x2341
+PMM0626X.pid.3=0x024d
+PMM0626X.upload_port.0.vid=0x2341
+PMM0626X.upload_port.0.pid=0x804d
+PMM0626X.upload_port.1.vid=0x2341
+PMM0626X.upload_port.1.pid=0x004d
+PMM0626X.upload_port.2.vid=0x2341
+PMM0626X.upload_port.2.pid=0x824d
+PMM0626X.upload_port.3.vid=0x2341
+PMM0626X.upload_port.3.pid=0x024d
+PMM0626X.upload_port.4.board=arduino_zero_native
+PMM0626X.build.usb_product="PMM0626X"
+PMM0626X.upload.tool=bossac
+PMM0626X.upload.tool.default=bossac
+PMM0626X.upload.tool.network=arduino_ota
+PMM0626X.upload.protocol=sam-ba
+PMM0626X.upload.maximum_size=262144
+PMM0626X.upload.maximum_data_size=32768
+PMM0626X.upload.use_1200bps_touch=true
+PMM0626X.upload.wait_for_upload_port=true
+PMM0626X.upload.native_usb=true
+PMM0626X.build.mcu=cortex-m0plus
+PMM0626X.build.f_cpu=48000000L
+PMM0626X.build.usb_product="pmm0626X"
+PMM0626X.build.usb_manufacturer="PMM LLC"
+PMM0626X.build.board=pmm0626X
+PMM0626X.build.core=arduino
+PMM0626X.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0626X.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0626X.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0626X.build.variant=pmm0626X
+PMM0626X.build.variant_system_lib=
+PMM0626X.build.vid=0x2341
+PMM0626X.build.pid=0x804d
+PMM0626X.bootloader.tool=openocd
+PMM0626X.bootloader.tool.default=openocd
+PMM0626X.bootloader.file=zero/samd21_sam_ba.bin
+
+
+
+# PMM0628RX (SI 12x Digital Inputs 6x Digital Outputs)
+# -------------------------------------
+PMM0628RX.name=PMM0628RX (SI 12xDI + 6xDO)
+PMM0628RX.vid.0=0x2341
+PMM0628RX.pid.0=0x804d
+PMM0628RX.vid.1=0x2341
+PMM0628RX.pid.1=0x004d
+PMM0628RX.vid.2=0x2341
+PMM0628RX.pid.2=0x824d
+PMM0628RX.vid.3=0x2341
+PMM0628RX.pid.3=0x024d
+PMM0628RX.upload_port.0.vid=0x2341
+PMM0628RX.upload_port.0.pid=0x804d
+PMM0628RX.upload_port.1.vid=0x2341
+PMM0628RX.upload_port.1.pid=0x004d
+PMM0628RX.upload_port.2.vid=0x2341
+PMM0628RX.upload_port.2.pid=0x824d
+PMM0628RX.upload_port.3.vid=0x2341
+PMM0628RX.upload_port.3.pid=0x024d
+PMM0628RX.upload_port.4.board=arduino_zero_native
+PMM0628RX.build.usb_product="PMM0628RX"
+PMM0628RX.upload.tool=bossac
+PMM0628RX.upload.tool.default=bossac
+PMM0628RX.upload.tool.network=arduino_ota
+PMM0628RX.upload.protocol=sam-ba
+PMM0628RX.upload.maximum_size=262144
+PMM0628RX.upload.maximum_data_size=32768
+PMM0628RX.upload.use_1200bps_touch=true
+PMM0628RX.upload.wait_for_upload_port=true
+PMM0628RX.upload.native_usb=true
+PMM0628RX.build.mcu=cortex-m0plus
+PMM0628RX.build.f_cpu=48000000L
+PMM0628RX.build.usb_product="pmm0628RX"
+PMM0628RX.build.usb_manufacturer="PMM LLC"
+PMM0628RX.build.board=pmm0628RX
+PMM0628RX.build.core=arduino
+PMM0628RX.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0628RX.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0628RX.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0628RX.build.variant=pmm0628RX
+PMM0628RX.build.variant_system_lib=
+PMM0628RX.build.vid=0x2341
+PMM0628RX.build.pid=0x804d
+PMM0628RX.bootloader.tool=openocd
+PMM0628RX.bootloader.tool.default=openocd
+PMM0628RX.bootloader.file=zero/samd21_sam_ba.bin
+
+
+# PMM0628TX (SI 12x Digital Inputs 6x Digital Outputs)
+# -------------------------------------
+PMM0628TX.name=PMM0628TX (SI 12xDI + 6xDO)
+PMM0628TX.vid.0=0x2341
+PMM0628TX.pid.0=0x804d
+PMM0628TX.vid.1=0x2341
+PMM0628TX.pid.1=0x004d
+PMM0628TX.vid.2=0x2341
+PMM0628TX.pid.2=0x824d
+PMM0628TX.vid.3=0x2341
+PMM0628TX.pid.3=0x024d
+PMM0628TX.upload_port.0.vid=0x2341
+PMM0628TX.upload_port.0.pid=0x804d
+PMM0628TX.upload_port.1.vid=0x2341
+PMM0628TX.upload_port.1.pid=0x004d
+PMM0628TX.upload_port.2.vid=0x2341
+PMM0628TX.upload_port.2.pid=0x824d
+PMM0628TX.upload_port.3.vid=0x2341
+PMM0628TX.upload_port.3.pid=0x024d
+PMM0628TX.upload_port.4.board=arduino_zero_native
+PMM0628TX.build.usb_product="PMM0628TX"
+PMM0628TX.upload.tool=bossac
+PMM0628TX.upload.tool.default=bossac
+PMM0628TX.upload.tool.network=arduino_ota
+PMM0628TX.upload.protocol=sam-ba
+PMM0628TX.upload.maximum_size=262144
+PMM0628TX.upload.maximum_data_size=32768
+PMM0628TX.upload.use_1200bps_touch=true
+PMM0628TX.upload.wait_for_upload_port=true
+PMM0628TX.upload.native_usb=true
+PMM0628TX.build.mcu=cortex-m0plus
+PMM0628TX.build.f_cpu=48000000L
+PMM0628TX.build.usb_product="pmm0628TX"
+PMM0628TX.build.usb_manufacturer="PMM LLC"
+PMM0628TX.build.board=pmm0628TX
+PMM0628TX.build.core=arduino
+PMM0628TX.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0628TX.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0628TX.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0628TX.build.variant=pmm0628TX
+PMM0628TX.build.variant_system_lib=
+PMM0628TX.build.vid=0x2341
+PMM0628TX.build.pid=0x804d
+PMM0628TX.bootloader.tool=openocd
+PMM0628TX.bootloader.tool.default=openocd
+PMM0628TX.bootloader.file=zero/samd21_sam_ba.bin
+
+# PMM0632X (SI 16x Analog Inputs)
+# --------------------------------------
+PMM0632X.name=PMM0632X (SI 16xAI)
+PMM0632X.vid.0=0x2341
+PMM0632X.pid.0=0x804d
+PMM0632X.vid.1=0x2341
+PMM0632X.pid.1=0x004d
+PMM0632X.vid.2=0x2341
+PMM0632X.pid.2=0x824d
+PMM0632X.vid.3=0x2341
+PMM0632X.pid.3=0x024d
+PMM0632X.upload_port.0.vid=0x2341
+PMM0632X.upload_port.0.pid=0x804d
+PMM0632X.upload_port.1.vid=0x2341
+PMM0632X.upload_port.1.pid=0x004d
+PMM0632X.upload_port.2.vid=0x2341
+PMM0632X.upload_port.2.pid=0x824d
+PMM0632X.upload_port.3.vid=0x2341
+PMM0632X.upload_port.3.pid=0x024d
+PMM0632X.upload_port.4.board=arduino_zero_native
+PMM0632X.build.usb_product="PMM0632X"
+PMM0632X.upload.tool=bossac
+PMM0632X.upload.tool.default=bossac
+PMM0632X.upload.tool.network=arduino_ota
+PMM0632X.upload.protocol=sam-ba
+PMM0632X.upload.maximum_size=32768
+PMM0632X.upload.maximum_data_size=4096
+PMM0632X.upload.use_1200bps_touch=true
+PMM0632X.upload.wait_for_upload_port=true
+PMM0632X.upload.native_usb=true
+PMM0632X.build.mcu=cortex-m0plus
+PMM0632X.build.f_cpu=48000000L
+PMM0632X.build.usb_product="pmm0632X"
+PMM0632X.build.usb_manufacturer="PMM LLC"
+PMM0632X.build.board=pmm0632X
+PMM0632X.build.core=arduino
+PMM0632X.build.extra_flags=-D__SAMD21J15A__ {build.usb_flags}
+PMM0632X.build.ldscript=linker_scripts/gcc/flash_without_bootloader.ld
+PMM0632X.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0632X.build.variant=pmm0632X
+PMM0632X.build.variant_system_lib=
+PMM0632X.build.vid=0x2341
+PMM0632X.build.pid=0x804d
+PMM0632X.bootloader.tool=openocd
+PMM0632X.bootloader.tool.default=openocd
+PMM0632X.bootloader.file=zero15b/samd21_sam_ba.bin
+
+# PMM0632XP (SI 24x Analog Inputs)
+# --------------------------------------
+PMM0632XP.name=PMM0632XP (I 24xAI)
+PMM0632XP.vid.0=0x2341
+PMM0632XP.pid.0=0x804d
+PMM0632XP.vid.1=0x2341
+PMM0632XP.pid.1=0x004d
+PMM0632XP.vid.2=0x2341
+PMM0632XP.pid.2=0x824d
+PMM0632XP.vid.3=0x2341
+PMM0632XP.pid.3=0x024d
+PMM0632XP.upload_port.0.vid=0x2341
+PMM0632XP.upload_port.0.pid=0x804d
+PMM0632XP.upload_port.1.vid=0x2341
+PMM0632XP.upload_port.1.pid=0x004d
+PMM0632XP.upload_port.2.vid=0x2341
+PMM0632XP.upload_port.2.pid=0x824d
+PMM0632XP.upload_port.3.vid=0x2341
+PMM0632XP.upload_port.3.pid=0x024d
+PMM0632XP.upload_port.4.board=arduino_zero_native
+PMM0632XP.build.usb_product="PMM0632XP"
+PMM0632XP.upload.tool=bossac
+PMM0632XP.upload.tool.default=bossac
+PMM0632XP.upload.tool.network=arduino_ota
+PMM0632XP.upload.protocol=sam-ba
+PMM0632XP.upload.maximum_size=32768
+PMM0632XP.upload.maximum_data_size=4096
+PMM0632XP.upload.use_1200bps_touch=true
+PMM0632XP.upload.wait_for_upload_port=true
+PMM0632XP.upload.native_usb=true
+PMM0632XP.build.mcu=cortex-m0plus
+PMM0632XP.build.f_cpu=48000000L
+PMM0632XP.build.usb_product="pmm0632XP"
+PMM0632XP.build.usb_manufacturer="PMM LLC"
+PMM0632XP.build.board=pmm0632XP
+PMM0632XP.build.core=arduino
+PMM0632XP.build.extra_flags=-D__SAMD21J15A__ {build.usb_flags}
+PMM0632XP.build.ldscript=linker_scripts/gcc/flash_without_bootloader.ld
+PMM0632XP.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0632XP.build.variant=pmm0632XP
+PMM0632XP.build.variant_system_lib=
+PMM0632XP.build.vid=0x2341
+PMM0632XP.build.pid=0x804d
+PMM0632XP.bootloader.tool=openocd
+PMM0632XP.bootloader.tool.default=openocd
+PMM0632XP.bootloader.file=zero15b/samd21_sam_ba.bin
+
+
+# PMM0635XP (SI 24x Analog Outputs)
+# --------------------------------------
+PMM0635XP.name=PMM0635XP (I 24xAO)
+PMM0635XP.vid.0=0x2341
+PMM0635XP.pid.0=0x804d
+PMM0635XP.vid.1=0x2341
+PMM0635XP.pid.1=0x004d
+PMM0635XP.vid.2=0x2341
+PMM0635XP.pid.2=0x824d
+PMM0635XP.vid.3=0x2341
+PMM0635XP.pid.3=0x024d
+PMM0635XP.upload_port.0.vid=0x2341
+PMM0635XP.upload_port.0.pid=0x804d
+PMM0635XP.upload_port.1.vid=0x2341
+PMM0635XP.upload_port.1.pid=0x004d
+PMM0635XP.upload_port.2.vid=0x2341
+PMM0635XP.upload_port.2.pid=0x824d
+PMM0635XP.upload_port.3.vid=0x2341
+PMM0635XP.upload_port.3.pid=0x024d
+PMM0635XP.upload_port.4.board=arduino_zero_native
+PMM0635XP.build.usb_product="PMM0635XP"
+PMM0635XP.upload.tool=bossac
+PMM0635XP.upload.tool.default=bossac
+PMM0635XP.upload.tool.network=arduino_ota
+PMM0635XP.upload.protocol=sam-ba
+PMM0635XP.upload.maximum_size=32768
+PMM0635XP.upload.maximum_data_size=4096
+PMM0635XP.upload.use_1200bps_touch=true
+PMM0635XP.upload.wait_for_upload_port=true
+PMM0635XP.upload.native_usb=true
+PMM0635XP.build.mcu=cortex-m0plus
+PMM0635XP.build.f_cpu=48000000L
+PMM0635XP.build.usb_product="pmm0635XP"
+PMM0635XP.build.usb_manufacturer="PMM LLC"
+PMM0635XP.build.board=pmm0635XP
+PMM0635XP.build.core=arduino
+PMM0635XP.build.extra_flags=-D__SAMD21J15A__ {build.usb_flags}
+PMM0635XP.build.ldscript=linker_scripts/gcc/flash_without_bootloader.ld
+PMM0635XP.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0635XP.build.variant=pmm0635XP
+PMM0635XP.build.variant_system_lib=
+PMM0635XP.build.vid=0x2341
+PMM0635XP.build.pid=0x804d
+PMM0635XP.bootloader.tool=openocd
+PMM0635XP.bootloader.tool.default=openocd
+PMM0635XP.bootloader.file=zero15b/samd21_sam_ba.bin
+
+
+# PMM0638XP (SI 12 x Analog Inputs + 12 x Analog Outputs)
+# --------------------------------------
+PMM0638XP.name=PMM0638XP (I 12xAI + 12xAO)
+PMM0638XP.vid.0=0x2341
+PMM0638XP.pid.0=0x804d
+PMM0638XP.vid.1=0x2341
+PMM0638XP.pid.1=0x004d
+PMM0638XP.vid.2=0x2341
+PMM0638XP.pid.2=0x824d
+PMM0638XP.vid.3=0x2341
+PMM0638XP.pid.3=0x024d
+PMM0638XP.upload_port.0.vid=0x2341
+PMM0638XP.upload_port.0.pid=0x804d
+PMM0638XP.upload_port.1.vid=0x2341
+PMM0638XP.upload_port.1.pid=0x004d
+PMM0638XP.upload_port.2.vid=0x2341
+PMM0638XP.upload_port.2.pid=0x824d
+PMM0638XP.upload_port.3.vid=0x2341
+PMM0638XP.upload_port.3.pid=0x024d
+PMM0638XP.upload_port.4.board=arduino_zero_native
+PMM0638XP.build.usb_product="PMM0638XP"
+PMM0638XP.upload.tool=bossac
+PMM0638XP.upload.tool.default=bossac
+PMM0638XP.upload.tool.network=arduino_ota
+PMM0638XP.upload.protocol=sam-ba
+PMM0638XP.upload.maximum_size=32768
+PMM0638XP.upload.maximum_data_size=4096
+PMM0638XP.upload.use_1200bps_touch=true
+PMM0638XP.upload.wait_for_upload_port=true
+PMM0638XP.upload.native_usb=true
+PMM0638XP.build.mcu=cortex-m0plus
+PMM0638XP.build.f_cpu=48000000L
+PMM0638XP.build.usb_product="pmm0638XP"
+PMM0638XP.build.usb_manufacturer="PMM LLC"
+PMM0638XP.build.board=pmm0638XP
+PMM0638XP.build.core=arduino
+PMM0638XP.build.extra_flags=-D__SAMD21J15A__ {build.usb_flags}
+PMM0638XP.build.ldscript=linker_scripts/gcc/flash_without_bootloader.ld
+PMM0638XP.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0638XP.build.variant=pmm0638XP
+PMM0638XP.build.variant_system_lib=
+PMM0638XP.build.vid=0x2341
+PMM0638XP.build.pid=0x804d
+PMM0638XP.bootloader.tool=openocd
+PMM0638XP.bootloader.tool.default=openocd
+PMM0638XP.bootloader.file=zero15b/samd21_sam_ba.bin
+
+
+# PMM0639XP (SI 12x Digital Inputs + 6x Digital Outputs + 4x Analog Inputs + 2x Analog Outputs)
+# --------------------------------------
+PMM0639XP.name=PMM0639XP (I 12xDI + 6xDO + 4xAI + 2xAO)
+PMM0639XP.vid.0=0x2341
+PMM0639XP.pid.0=0x804d
+PMM0639XP.vid.1=0x2341
+PMM0639XP.pid.1=0x004d
+PMM0639XP.vid.2=0x2341
+PMM0639XP.pid.2=0x824d
+PMM0639XP.vid.3=0x2341
+PMM0639XP.pid.3=0x024d
+PMM0639XP.upload_port.0.vid=0x2341
+PMM0639XP.upload_port.0.pid=0x804d
+PMM0639XP.upload_port.1.vid=0x2341
+PMM0639XP.upload_port.1.pid=0x004d
+PMM0639XP.upload_port.2.vid=0x2341
+PMM0639XP.upload_port.2.pid=0x824d
+PMM0639XP.upload_port.3.vid=0x2341
+PMM0639XP.upload_port.3.pid=0x024d
+PMM0639XP.upload_port.4.board=arduino_zero_native
+PMM0639XP.build.usb_product="PMM0639XP"
+PMM0639XP.upload.tool=bossac
+PMM0639XP.upload.tool.default=bossac
+PMM0639XP.upload.tool.network=arduino_ota
+PMM0639XP.upload.protocol=sam-ba
+PMM0639XP.upload.maximum_size=32768
+PMM0639XP.upload.maximum_data_size=4096
+PMM0639XP.upload.use_1200bps_touch=true
+PMM0639XP.upload.wait_for_upload_port=true
+PMM0639XP.upload.native_usb=true
+PMM0639XP.build.mcu=cortex-m0plus
+PMM0639XP.build.f_cpu=48000000L
+PMM0639XP.build.usb_product="pmm0639XP"
+PMM0639XP.build.usb_manufacturer="PMM LLC"
+PMM0639XP.build.board=pmm0639XP
+PMM0639XP.build.core=arduino
+PMM0639XP.build.extra_flags=-D__SAMD21J15A__ {build.usb_flags}
+PMM0639XP.build.ldscript=linker_scripts/gcc/flash_without_bootloader.ld
+PMM0639XP.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0639XP.build.variant=pmm0639XP
+PMM0639XP.build.variant_system_lib=
+PMM0639XP.build.vid=0x2341
+PMM0639XP.build.pid=0x804d
+PMM0639XP.bootloader.tool=openocd
+PMM0639XP.bootloader.tool.default=openocd
+PMM0639XP.bootloader.file=zero15b/samd21_sam_ba.bin
+
+#Special porpuse
+
+
+# PMM0606 (ESI High Speed Data Logger)
+# --------------------------------------
+PMM0606.name=PMM0606 (ESI HS DataLogger)
+PMM0606.vid.0=0x2341
+PMM0606.pid.0=0x804d
+PMM0606.vid.1=0x2341
+PMM0606.pid.1=0x004d
+PMM0606.vid.2=0x2341
+PMM0606.pid.2=0x824d
+PMM0606.vid.3=0x2341
+PMM0606.pid.3=0x024d
+PMM0606.upload_port.0.vid=0x2341
+PMM0606.upload_port.0.pid=0x804d
+PMM0606.upload_port.1.vid=0x2341
+PMM0606.upload_port.1.pid=0x004d
+PMM0606.upload_port.2.vid=0x2341
+PMM0606.upload_port.2.pid=0x824d
+PMM0606.upload_port.3.vid=0x2341
+PMM0606.upload_port.3.pid=0x024d
+PMM0606.upload_port.4.board=arduino_zero_native
+PMM0606.build.usb_product="PMM0606"
+PMM0606.upload.tool=bossac
+PMM0606.upload.tool.default=bossac
+PMM0606.upload.tool.network=arduino_ota
+PMM0606.upload.protocol=sam-ba
+PMM0606.upload.maximum_size=262144
+PMM0606.upload.maximum_data_size=32768
+PMM0606.upload.use_1200bps_touch=true
+PMM0606.upload.wait_for_upload_port=true
+PMM0606.upload.native_usb=true
+PMM0606.build.mcu=cortex-m0plus
+PMM0606.build.f_cpu=48000000L
+PMM0606.build.usb_product="pmm0606"
+PMM0606.build.usb_manufacturer="PMM LLC"
+PMM0606.build.board=pmm0606
+PMM0606.build.core=arduino
+PMM0606.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0606.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0606.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0606.build.variant=pmm0606
+PMM0606.build.variant_system_lib=
+PMM0606.build.vid=0x2341
+PMM0606.build.pid=0x804d
+PMM0606.bootloader.tool=openocd
+PMM0606.bootloader.tool.default=openocd
+PMM0606.bootloader.file=zero/samd21_sam_ba.bin
+
+
+
+# PMM0610 (ESI Base Blutooth and Ethernet)
+# --------------------------------------
+PMM0610.name=PMM0610 (ESI Wierless Base)
+PMM0610.vid.0=0x2341
+PMM0610.pid.0=0x804d
+PMM0610.vid.1=0x2341
+PMM0610.pid.1=0x004d
+PMM0610.vid.2=0x2341
+PMM0610.pid.2=0x824d
+PMM0610.vid.3=0x2341
+PMM0610.pid.3=0x024d
+PMM0610.upload_port.0.vid=0x2341
+PMM0610.upload_port.0.pid=0x804d
+PMM0610.upload_port.1.vid=0x2341
+PMM0610.upload_port.1.pid=0x004d
+PMM0610.upload_port.2.vid=0x2341
+PMM0610.upload_port.2.pid=0x824d
+PMM0610.upload_port.3.vid=0x2341
+PMM0610.upload_port.3.pid=0x024d
+PMM0610.upload_port.4.board=arduino_zero_native
+PMM0610.build.usb_product="PMM0610"
+PMM0610.upload.tool=bossac
+PMM0610.upload.tool.default=bossac
+PMM0610.upload.tool.network=arduino_ota
+PMM0610.upload.protocol=sam-ba
+PMM0610.upload.maximum_size=262144
+PMM0610.upload.maximum_data_size=32768
+PMM0610.upload.use_1200bps_touch=true
+PMM0610.upload.wait_for_upload_port=true
+PMM0610.upload.native_usb=true
+PMM0610.build.mcu=cortex-m0plus
+PMM0610.build.f_cpu=48000000L
+PMM0610.build.usb_product="pmm0610"
+PMM0610.build.usb_manufacturer="PMM LLC"
+PMM0610.build.board=pmm0610
+PMM0610.build.core=arduino
+PMM0610.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0610.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0610.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0610.build.variant=pmm0610
+PMM0610.build.variant_system_lib=
+PMM0610.build.vid=0x2341
+PMM0610.build.pid=0x804d
+PMM0610.bootloader.tool=openocd
+PMM0610.bootloader.tool.default=openocd
+PMM0610.bootloader.file=zero/samd21_sam_ba.bin
+
+
+#PMM0612 (ESI F.O SWITCH)
+# --------------------------------------
+PMM0612.name=PMM0612 (ESI F.O SWITCH)
+PMM0612.vid.0=0x2341
+PMM0612.pid.0=0x804d
+PMM0612.vid.1=0x2341
+PMM0612.pid.1=0x004d
+PMM0612.vid.2=0x2341
+PMM0612.pid.2=0x824d
+PMM0612.vid.3=0x2341
+PMM0612.pid.3=0x024d
+PMM0612.upload_port.0.vid=0x2341
+PMM0612.upload_port.0.pid=0x804d
+PMM0612.upload_port.1.vid=0x2341
+PMM0612.upload_port.1.pid=0x004d
+PMM0612.upload_port.2.vid=0x2341
+PMM0612.upload_port.2.pid=0x824d
+PMM0612.upload_port.3.vid=0x2341
+PMM0612.upload_port.3.pid=0x024d
+PMM0612.upload_port.4.board=arduino_zero_native
+PMM0612.build.usb_product="PMM0612"
+PMM0612.upload.tool=bossac
+PMM0612.upload.tool.default=bossac
+PMM0612.upload.tool.network=arduino_ota
+PMM0612.upload.protocol=sam-ba
+PMM0612.upload.maximum_size=262144
+PMM0612.upload.maximum_data_size=32768
+PMM0612.upload.use_1200bps_touch=true
+PMM0612.upload.wait_for_upload_port=true
+PMM0612.upload.native_usb=true
+PMM0612.build.mcu=cortex-m0plus
+PMM0612.build.f_cpu=48000000L
+PMM0612.build.usb_product="PMM0612"
+PMM0612.build.usb_manufacturer="PMM LLC"
+PMM0612.build.board=PMM0612
+PMM0612.build.core=arduino
+PMM0612.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0612.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0612.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0612.build.variant=PMM0612
+PMM0612.build.variant_system_lib=
+PMM0612.build.vid=0x2341
+PMM0612.build.pid=0x804d
+PMM0612.bootloader.tool=openocd
+PMM0612.bootloader.tool.default=openocd
+PMM0612.bootloader.file=zero/samd21_sam_ba.bin
+
+# PMM0640 (ESI 1PH Energy Meter)
+# --------------------------------------
+PMM0640.name=PMM0640 (ESI 1PH ENERGY METER)
+PMM0640.vid.0=0x2341
+PMM0640.pid.0=0x804d
+PMM0640.vid.1=0x2341
+PMM0640.pid.1=0x004d
+PMM0640.vid.2=0x2341
+PMM0640.pid.2=0x824d
+PMM0640.vid.3=0x2341
+PMM0640.pid.3=0x024d
+PMM0640.upload_port.0.vid=0x2341
+PMM0640.upload_port.0.pid=0x804d
+PMM0640.upload_port.1.vid=0x2341
+PMM0640.upload_port.1.pid=0x004d
+PMM0640.upload_port.2.vid=0x2341
+PMM0640.upload_port.2.pid=0x824d
+PMM0640.upload_port.3.vid=0x2341
+PMM0640.upload_port.3.pid=0x024d
+PMM0640.upload_port.4.board=arduino_zero_native
+PMM0640.build.usb_product="PMM0640"
+PMM0640.upload.tool=bossac
+PMM0640.upload.tool.default=bossac
+PMM0640.upload.tool.network=arduino_ota
+PMM0640.upload.protocol=sam-ba
+PMM0640.upload.maximum_size=262144
+PMM0640.upload.maximum_data_size=32768
+PMM0640.upload.use_1200bps_touch=true
+PMM0640.upload.wait_for_upload_port=true
+PMM0640.upload.native_usb=true
+PMM0640.build.mcu=cortex-m0plus
+PMM0640.build.f_cpu=48000000L
+PMM0640.build.usb_product="pmm0640"
+PMM0640.build.usb_manufacturer="PMM LLC"
+PMM0640.build.board=pmm0640
+PMM0640.build.core=arduino
+PMM0640.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0640.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0640.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0640.build.variant=pmm0640
+PMM0640.build.variant_system_lib=
+PMM0640.build.vid=0x2341
+PMM0640.build.pid=0x804d
+PMM0640.bootloader.tool=openocd
+PMM0640.bootloader.tool.default=openocd
+PMM0640.bootloader.file=zero/samd21_sam_ba.bin
+
+# PMM0641 (ESI 3PH Energy Meter)
+# --------------------------------------
+PMM0641.name=PMM0641 (ESI 3PH ENERGY METER)
+PMM0641.vid.0=0x2341
+PMM0641.pid.0=0x804d
+PMM0641.vid.1=0x2341
+PMM0641.pid.1=0x004d
+PMM0641.vid.2=0x2341
+PMM0641.pid.2=0x824d
+PMM0641.vid.3=0x2341
+PMM0641.pid.3=0x024d
+PMM0641.upload_port.0.vid=0x2341
+PMM0641.upload_port.0.pid=0x804d
+PMM0641.upload_port.1.vid=0x2341
+PMM0641.upload_port.1.pid=0x004d
+PMM0641.upload_port.2.vid=0x2341
+PMM0641.upload_port.2.pid=0x824d
+PMM0641.upload_port.3.vid=0x2341
+PMM0641.upload_port.3.pid=0x024d
+PMM0641.upload_port.4.board=arduino_zero_native
+PMM0641.build.usb_product="PMM0641"
+PMM0641.upload.tool=bossac
+PMM0641.upload.tool.default=bossac
+PMM0641.upload.tool.network=arduino_ota
+PMM0641.upload.protocol=sam-ba
+PMM0641.upload.maximum_size=262144
+PMM0641.upload.maximum_data_size=32768
+PMM0641.upload.use_1200bps_touch=true
+PMM0641.upload.wait_for_upload_port=true
+PMM0641.upload.native_usb=true
+PMM0641.build.mcu=cortex-m0plus
+PMM0641.build.f_cpu=48000000L
+PMM0641.build.usb_product="pmm0641"
+PMM0641.build.usb_manufacturer="PMM LLC"
+PMM0641.build.board=pmm0640
+PMM0641.build.core=arduino
+PMM0641.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0641.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0641.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0641.build.variant=pmm0641
+PMM0641.build.variant_system_lib=
+PMM0641.build.vid=0x2341
+PMM0641.build.pid=0x804d
+PMM0641.bootloader.tool=openocd
+PMM0641.bootloader.tool.default=openocd
+PMM0641.bootloader.file=zero/samd21_sam_ba.bin
+
+# PMM0650 (ESI Temperature and humidity Controller)
+# --------------------------------------
+PMM0650.name=PMM0650 (ESI PROCESS CONTROLLER)
+PMM0650.vid.0=0x2341
+PMM0650.pid.0=0x804d
+PMM0650.vid.1=0x2341
+PMM0650.pid.1=0x004d
+PMM0650.vid.2=0x2341
+PMM0650.pid.2=0x824d
+PMM0650.vid.3=0x2341
+PMM0650.pid.3=0x024d
+PMM0650.upload_port.0.vid=0x2341
+PMM0650.upload_port.0.pid=0x804d
+PMM0650.upload_port.1.vid=0x2341
+PMM0650.upload_port.1.pid=0x004d
+PMM0650.upload_port.2.vid=0x2341
+PMM0650.upload_port.2.pid=0x824d
+PMM0650.upload_port.3.vid=0x2341
+PMM0650.upload_port.3.pid=0x024d
+PMM0650.upload_port.4.board=arduino_zero_native
+PMM0650.build.usb_product="PMM0650"
+PMM0650.upload.tool=bossac
+PMM0650.upload.tool.default=bossac
+PMM0650.upload.tool.network=arduino_ota
+PMM0650.upload.protocol=sam-ba
+PMM0650.upload.maximum_size=262144
+PMM0650.upload.maximum_data_size=32768
+PMM0650.upload.use_1200bps_touch=true
+PMM0650.upload.wait_for_upload_port=true
+PMM0650.upload.native_usb=true
+PMM0650.build.mcu=cortex-m0plus
+PMM0650.build.f_cpu=48000000L
+PMM0650.build.usb_product="pmm0650"
+PMM0650.build.usb_manufacturer="PMM LLC"
+PMM0650.build.board=pmm0650
+PMM0650.build.core=arduino
+PMM0650.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0650.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0650.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0650.build.variant=pmm0650
+PMM0650.build.variant_system_lib=
+PMM0650.build.vid=0x2341
+PMM0650.build.pid=0x804d
+PMM0650.bootloader.tool=openocd
+PMM0650.bootloader.tool.default=openocd
+PMM0650.bootloader.file=zero/samd21_sam_ba.bin
+
+
+# PMM0675 (ESI 4x Basic Optical encoder interface)
+# --------------------------------------
+PMM0675.name=PMM0675 (ESI 4X OPTICAL ENCODER)
+PMM0675.vid.0=0x2341
+PMM0675.pid.0=0x804d
+PMM0675.vid.1=0x2341
+PMM0675.pid.1=0x004d
+PMM0675.vid.2=0x2341
+PMM0675.pid.2=0x824d
+PMM0675.vid.3=0x2341
+PMM0675.pid.3=0x024d
+PMM0675.upload_port.0.vid=0x2341
+PMM0675.upload_port.0.pid=0x804d
+PMM0675.upload_port.1.vid=0x2341
+PMM0675.upload_port.1.pid=0x004d
+PMM0675.upload_port.2.vid=0x2341
+PMM0675.upload_port.2.pid=0x824d
+PMM0675.upload_port.3.vid=0x2341
+PMM0675.upload_port.3.pid=0x024d
+PMM0675.upload_port.4.board=arduino_zero_native
+PMM0675.build.usb_product="PMM0675"
+PMM0675.upload.tool=bossac
+PMM0675.upload.tool.default=bossac
+PMM0675.upload.tool.network=arduino_ota
+PMM0675.upload.protocol=sam-ba
+PMM0675.upload.maximum_size=262144
+PMM0675.upload.maximum_data_size=32768
+PMM0675.upload.use_1200bps_touch=true
+PMM0675.upload.wait_for_upload_port=true
+PMM0675.upload.native_usb=true
+PMM0675.build.mcu=cortex-m0plus
+PMM0675.build.f_cpu=48000000L
+PMM0675.build.usb_product="PMM0675"
+PMM0675.build.usb_manufacturer="PMM LLC"
+PMM0675.build.board=pmm0675
+PMM0675.build.core=arduino
+PMM0675.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0675.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0675.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0675.build.variant=pmm0675
+PMM0675.build.variant_system_lib=
+PMM0675.build.vid=0x2341
+PMM0675.build.pid=0x804d
+PMM0675.bootloader.tool=openocd
+PMM0675.bootloader.tool.default=openocd
+PMM0675.bootloader.file=zero/samd21_sam_ba.bin
+
+# PMM0676 (ESI Advanced Optical encoder interface)
+# --------------------------------------
+PMM0676.name=PMM0676 (ESI ADV OPTICAL ENCODER)
+PMM0676.vid.0=0x2341
+PMM0676.pid.0=0x804d
+PMM0676.vid.1=0x2341
+PMM0676.pid.1=0x004d
+PMM0676.vid.2=0x2341
+PMM0676.pid.2=0x824d
+PMM0676.vid.3=0x2341
+PMM0676.pid.3=0x024d
+PMM0676.upload_port.0.vid=0x2341
+PMM0676.upload_port.0.pid=0x804d
+PMM0676.upload_port.1.vid=0x2341
+PMM0676.upload_port.1.pid=0x004d
+PMM0676.upload_port.2.vid=0x2341
+PMM0676.upload_port.2.pid=0x824d
+PMM0676.upload_port.3.vid=0x2341
+PMM0676.upload_port.3.pid=0x024d
+PMM0676.upload_port.4.board=arduino_zero_native
+PMM0676.build.usb_product="PMM0676"
+PMM0676.upload.tool=bossac
+PMM0676.upload.tool.default=bossac
+PMM0676.upload.tool.network=arduino_ota
+PMM0676.upload.protocol=sam-ba
+PMM0676.upload.maximum_size=262144
+PMM0676.upload.maximum_data_size=32768
+PMM0676.upload.use_1200bps_touch=true
+PMM0676.upload.wait_for_upload_port=true
+PMM0676.upload.native_usb=true
+PMM0676.build.mcu=cortex-m0plus
+PMM0676.build.f_cpu=48000000L
+PMM0676.build.usb_product="pmm0676"
+PMM0676.build.usb_manufacturer="PMM LLC"
+PMM0676.build.board=pmm0676
+PMM0676.build.core=arduino
+PMM0676.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0676.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0676.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0676.build.variant=pmm0676
+PMM0676.build.variant_system_lib=
+PMM0676.build.vid=0x2341
+PMM0676.build.pid=0x804d
+PMM0676.bootloader.tool=openocd
+PMM0676.bootloader.tool.default=openocd
+PMM0676.bootloader.file=zero/samd21_sam_ba.bin
+
+
+# pmm0680 (ESI Load Cell MODBUS TCP V2.2)
+# --------------------------------------
+pmm0680.name=PMM0680 (ESI LOADCELL INTERFACE)
+pmm0680.vid.0=0x2341
+pmm0680.pid.0=0x804d
+pmm0680.vid.1=0x2341
+pmm0680.pid.1=0x004d
+pmm0680.vid.2=0x2341
+pmm0680.pid.2=0x824d
+pmm0680.vid.3=0x2341
+pmm0680.pid.3=0x024d
+pmm0680.upload_port.0.vid=0x2341
+pmm0680.upload_port.0.pid=0x804d
+pmm0680.upload_port.1.vid=0x2341
+pmm0680.upload_port.1.pid=0x004d
+pmm0680.upload_port.2.vid=0x2341
+pmm0680.upload_port.2.pid=0x824d
+pmm0680.upload_port.3.vid=0x2341
+pmm0680.upload_port.3.pid=0x024d
+pmm0680.upload_port.4.board=arduino_zero_native
+pmm0680.build.usb_product="pmm0680"
+pmm0680.upload.tool=bossac
+pmm0680.upload.tool.default=bossac
+pmm0680.upload.tool.network=arduino_ota
+pmm0680.upload.protocol=sam-ba
+pmm0680.upload.maximum_size=262144
+pmm0680.upload.maximum_data_size=32768
+pmm0680.upload.use_1200bps_touch=true
+pmm0680.upload.wait_for_upload_port=true
+pmm0680.upload.native_usb=true
+pmm0680.build.mcu=cortex-m0plus
+pmm0680.build.f_cpu=48000000L
+pmm0680.build.usb_product="pmm0680"
+pmm0680.build.usb_manufacturer="PMM LLC"
+pmm0680.build.board=pmm0680
+pmm0680.build.core=arduino
+pmm0680.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+pmm0680.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+pmm0680.build.openocdscript=openocd_scripts/arduino_zero.cfg
+pmm0680.build.variant=pmm0680
+pmm0680.build.variant_system_lib=
+pmm0680.build.vid=0x2341
+pmm0680.build.pid=0x804d
+pmm0680.bootloader.tool=openocd
+pmm0680.bootloader.tool.default=openocd
+pmm0680.bootloader.file=zero/samd21_sam_ba.bin
+
+#Converters
+# PMM0501 (ESI MODBUS TCP-RTU )
+# --------------------------------------
+PMM0501.name=PMM0501 (ESI Ethernet-Serial)
+PMM0501.vid.0=0x2341
+PMM0501.pid.0=0x804d
+PMM0501.vid.1=0x2341
+PMM0501.pid.1=0x004d
+PMM0501.vid.2=0x2341
+PMM0501.pid.2=0x824d
+PMM0501.vid.3=0x2341
+PMM0501.pid.3=0x024d
+PMM0501.upload_port.0.vid=0x2341
+PMM0501.upload_port.0.pid=0x804d
+PMM0501.upload_port.1.vid=0x2341
+PMM0501.upload_port.1.pid=0x004d
+PMM0501.upload_port.2.vid=0x2341
+PMM0501.upload_port.2.pid=0x824d
+PMM0501.upload_port.3.vid=0x2341
+PMM0501.upload_port.3.pid=0x024d
+PMM0501.upload_port.4.board=arduino_zero_native
+PMM0501.build.usb_product="PMM0501"
+PMM0501.upload.tool=bossac
+PMM0501.upload.tool.default=bossac
+PMM0501.upload.tool.network=arduino_ota
+PMM0501.upload.protocol=sam-ba
+PMM0501.upload.maximum_size=262144
+PMM0501.upload.maximum_data_size=32768
+PMM0501.upload.use_1200bps_touch=true
+PMM0501.upload.wait_for_upload_port=true
+PMM0501.upload.native_usb=true
+PMM0501.build.mcu=cortex-m0plus
+PMM0501.build.f_cpu=48000000L
+PMM0501.build.usb_product="pmm0501"
+PMM0501.build.usb_manufacturer="PMM LLC"
+PMM0501.build.board=pmm0501
+PMM0501.build.core=arduino
+PMM0501.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0501.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0501.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0501.build.variant=PMM0501
+PMM0501.build.variant_system_lib=
+PMM0501.build.vid=0x2341
+PMM0501.build.pid=0x804d
+PMM0501.bootloader.tool=openocd
+PMM0501.bootloader.tool.default=openocd
+PMM0501.bootloader.file=zero/samd21_sam_ba.bin
+
+# PMM0503 (ESI RS232-422-485 FIBER CONVERTER)
+# --------------------------------------
+PMM0503.name=PMM0503 (ESI RS232-422-485 FIBER CONVERTER)
+PMM0503.vid.0=0x2341
+PMM0503.pid.0=0x804d
+PMM0503.vid.1=0x2341
+PMM0503.pid.1=0x004d
+PMM0503.vid.2=0x2341
+PMM0503.pid.2=0x824d
+PMM0503.vid.3=0x2341
+PMM0503.pid.3=0x024d
+PMM0503.upload_port.0.vid=0x2341
+PMM0503.upload_port.0.pid=0x804d
+PMM0503.upload_port.1.vid=0x2341
+PMM0503.upload_port.1.pid=0x004d
+PMM0503.upload_port.2.vid=0x2341
+PMM0503.upload_port.2.pid=0x824d
+PMM0503.upload_port.3.vid=0x2341
+PMM0503.upload_port.3.pid=0x024d
+PMM0503.upload_port.4.board=arduino_zero_native
+PMM0503.build.usb_product="PMM0503"
+PMM0503.upload.tool=bossac
+PMM0503.upload.tool.default=bossac
+PMM0503.upload.tool.network=arduino_ota
+PMM0503.upload.protocol=sam-ba
+PMM0503.upload.maximum_size=262144
+PMM0503.upload.maximum_data_size=32768
+PMM0503.upload.use_1200bps_touch=true
+PMM0503.upload.wait_for_upload_port=true
+PMM0503.upload.native_usb=true
+PMM0503.build.mcu=cortex-m0plus
+PMM0503.build.f_cpu=48000000L
+PMM0503.build.usb_product="pmm0503"
+PMM0503.build.usb_manufacturer="PMM LLC"
+PMM0503.build.board=pmm0503
+PMM0503.build.core=arduino
+PMM0503.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0503.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0503.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0503.build.variant=PMM0503
+PMM0503.build.variant_system_lib=
+PMM0503.build.vid=0x2341
+PMM0503.build.pid=0x804d
+PMM0503.bootloader.tool=openocd
+PMM0503.bootloader.tool.default=openocd
+PMM0503.bootloader.file=zero/samd21_sam_ba.bin
+
+# PMM0504 (S RS232-485 REPEATER)
+# --------------------------------------
+PMM0504.name=PMM0504 (S RS232-485 REPEATER)
+PMM0504.vid.0=0x2341
+PMM0504.pid.0=0x804d
+PMM0504.vid.1=0x2341
+PMM0504.pid.1=0x004d
+PMM0504.vid.2=0x2341
+PMM0504.pid.2=0x824d
+PMM0504.vid.3=0x2341
+PMM0504.pid.3=0x024d
+PMM0504.upload_port.0.vid=0x2341
+PMM0504.upload_port.0.pid=0x804d
+PMM0504.upload_port.1.vid=0x2341
+PMM0504.upload_port.1.pid=0x004d
+PMM0504.upload_port.2.vid=0x2341
+PMM0504.upload_port.2.pid=0x824d
+PMM0504.upload_port.3.vid=0x2341
+PMM0504.upload_port.3.pid=0x024d
+PMM0504.upload_port.4.board=arduino_zero_native
+PMM0504.build.usb_product="PMM0504"
+PMM0504.upload.tool=bossac
+PMM0504.upload.tool.default=bossac
+PMM0504.upload.tool.network=arduino_ota
+PMM0504.upload.protocol=sam-ba
+PMM0504.upload.maximum_size=262144
+PMM0504.upload.maximum_data_size=32768
+PMM0504.upload.use_1200bps_touch=true
+PMM0504.upload.wait_for_upload_port=true
+PMM0504.upload.native_usb=true
+PMM0504.build.mcu=cortex-m0plus
+PMM0504.build.f_cpu=48000000L
+PMM0504.build.usb_product="pmm0504"
+PMM0504.build.usb_manufacturer="PMM LLC"
+PMM0504.build.board=pmm0504
+PMM0504.build.core=arduino
+PMM0504.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0504.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0504.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0504.build.variant=PMM0504
+PMM0504.build.variant_system_lib=
+PMM0504.build.vid=0x2341
+PMM0504.build.pid=0x804d
+PMM0504.bootloader.tool=openocd
+PMM0504.bootloader.tool.default=openocd
+PMM0504.bootloader.file=zero/samd21_sam_ba.bin
+
+# PMM0507 (S GPS TO RS485 )
+# --------------------------------------
+PMM0507.name=PMM0507 (S GPS TO RS485 )
+PMM0507.vid.0=0x2341
+PMM0507.pid.0=0x804d
+PMM0507.vid.1=0x2341
+PMM0507.pid.1=0x004d
+PMM0507.vid.2=0x2341
+PMM0507.pid.2=0x824d
+PMM0507.vid.3=0x2341
+PMM0507.pid.3=0x024d
+PMM0507.upload_port.0.vid=0x2341
+PMM0507.upload_port.0.pid=0x804d
+PMM0507.upload_port.1.vid=0x2341
+PMM0507.upload_port.1.pid=0x004d
+PMM0507.upload_port.2.vid=0x2341
+PMM0507.upload_port.2.pid=0x824d
+PMM0507.upload_port.3.vid=0x2341
+PMM0507.upload_port.3.pid=0x024d
+PMM0507.upload_port.4.board=arduino_zero_native
+PMM0507.build.usb_product="PMM0507"
+PMM0507.upload.tool=bossac
+PMM0507.upload.tool.default=bossac
+PMM0507.upload.tool.network=arduino_ota
+PMM0507.upload.protocol=sam-ba
+PMM0507.upload.maximum_size=262144
+PMM0507.upload.maximum_data_size=32768
+PMM0507.upload.use_1200bps_touch=true
+PMM0507.upload.wait_for_upload_port=true
+PMM0507.upload.native_usb=true
+PMM0507.build.mcu=cortex-m0plus
+PMM0507.build.f_cpu=48000000L
+PMM0507.build.usb_product="pmm0507"
+PMM0507.build.usb_manufacturer="PMM LLC"
+PMM0507.build.board=pmm0507
+PMM0507.build.core=arduino
+PMM0507.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+PMM0507.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+PMM0507.build.openocdscript=openocd_scripts/arduino_zero.cfg
+PMM0507.build.variant=PMM0507
+PMM0507.build.variant_system_lib=
+PMM0507.build.vid=0x2341
+PMM0507.build.pid=0x804d
+PMM0507.bootloader.tool=openocd
+PMM0507.bootloader.tool.default=openocd
+PMM0507.bootloader.file=zero/samd21_sam_ba.bin
+
