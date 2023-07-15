@@ -11,12 +11,12 @@
         { 
           "name": "PMM-PLC-CPUs", 
           "architecture": "samd",
-          "version": "0.1.1",
+          "version": "0.1.2",
           "category": "Contributed",
           "url": "https://github.com/Israr-Engineering/PMM/blob/main/custom_Board/PMM.zip?raw=true",
           "archiveFileName": "PMM.zip",
-          "checksum": "SHA-256:D127EF0530DADFE4582465D354DE25D84286B223472AFC3D49794562EE1144B2",
-          "size": "17026460",
+          "checksum": "SHA-256:990A131E4C1355CFF2D310DFD28EFC0D58C1C67B18C90A73B636976289CBD22D",
+          "size": "17077063",
           "boards": [
 
             {"name": "PMM0620"},
